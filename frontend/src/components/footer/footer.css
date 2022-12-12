@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    height: 210px;
+}
+
+.footer span {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+
+@media(max-width: 610px) {
+    .footer span {
+        font-size: 18px;
+    }
+}
