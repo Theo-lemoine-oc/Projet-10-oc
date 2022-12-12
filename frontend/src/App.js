@@ -2,18 +2,7 @@ import React from 'react';
 import {Navbar} from './components/header/navbar/Navbar.jsx';
 import {BannerHero} from './components/header/bannerHero/BannerHero.jsx';
 import {Locations} from './components/locations/Locations.jsx';
-/*
-const styles = {
-  margin: 10
-}
-
-function Button(props) {
-  return <button style={{...props.style, fontSize: props.textSize}}>{props.children}</button>
-}
-
-Utilisation :
-<Button style={styles}>Button 2</Button>
-*/
+import {Footer} from './components/footer/Footer.jsx';
 
 function App() {
   return (
@@ -27,9 +16,25 @@ function App() {
         <Locations />
       </main>
 
-
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
 
 export default App;
+
+
+/*
+const styles = {
+  margin: 10
+}
+
+function Button(props) {
+  return <button style={{...props.style, fontSize: props.textSize}}>{props.children}</button>
+}
+
+Utilisation :
+<Button style={styles}>Button 2</Button>
+*/

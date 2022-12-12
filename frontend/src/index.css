@@ -13,12 +13,14 @@
 
 
 /** Homepage **/
-.App {
+header,
+main {
   padding: 0 5rem;
 }
 
 @media(max-width: 610px) {
-  .App {
+  header,
+  main {
     padding: 0 1rem;
   }
 }
