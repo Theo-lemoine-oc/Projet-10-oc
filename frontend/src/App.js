@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './assets/img/logo-kasa.svg';
 import './App.css';
 
 const styles = {
@@ -14,6 +14,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+
         <Button style={styles}>Button 2</Button>
       </header>
     </div>
