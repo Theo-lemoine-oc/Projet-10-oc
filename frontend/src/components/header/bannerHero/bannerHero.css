@@ -1,0 +1,43 @@
+.banner-hero {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.banner-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-hero .h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.banner-hero h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+@media(max-width: 980px) {
+    .banner-hero .h1 {
+        justify-content: flex-start;
+        padding: 0 2rem;
+    }
+
+    .banner-hero h1 {
+        font-size: 32px;
+    }
+}

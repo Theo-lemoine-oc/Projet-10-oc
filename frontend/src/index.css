@@ -3,9 +3,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat';
 }
 
 /** Variables **/
 :root {
   --main-color: #FF6060;
+}
+
+
+/** Homepage **/
+.App {
+  padding: 0 5rem;
+}
+
+@media(max-width: 610px) {
+  .App {
+    padding: 0 1rem;
+  }
 }
