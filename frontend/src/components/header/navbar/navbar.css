@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+
+.navbar a {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+}
+
+.navbar a:first-child {
+    margin-right: 2rem;
+}
+
+.App-logo {
+    width: 210.32px;
+    height: 68px;
+}
+
+@media(max-width: 610px) {
+    .navbar {
+        padding: 2rem 1rem;
+    }
+
+    .App-logo {
+        width: 145px;
+        height: 47px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}
