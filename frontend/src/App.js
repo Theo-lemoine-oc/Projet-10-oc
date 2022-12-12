@@ -1,5 +1,14 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+const styles = {
+  margin: 10
+}
+
+function Button(props) {
+  return <button style={{...props.style, fontSize: props.textSize}}>{props.children}</button>
+}
 
 function App() {
   return (
@@ -17,6 +26,8 @@ function App() {
         >
           Learn React
         </a>
+        <Button style={styles} textSize={20}>Button 1</Button>
+        <Button style={styles}>Button 2</Button>
       </header>
     </div>
   );
