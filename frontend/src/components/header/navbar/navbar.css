@@ -2,17 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 5rem;
+    padding: 2rem 0;
 }
 
 
 .navbar a {
-    font-family: 'Montserrat';
     text-decoration: none;
     color: var(--main-color);
     font-weight: 500;
     font-size: 24px;
-    line-height: 142.6%;
 }
 
 .navbar a:first-child {
@@ -25,10 +23,6 @@
 }
 
 @media(max-width: 610px) {
-    .navbar {
-        padding: 2rem 1rem;
-    }
-
     .App-logo {
         width: 145px;
         height: 47px;

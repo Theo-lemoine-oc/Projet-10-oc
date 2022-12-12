@@ -1,5 +1,6 @@
 import React from 'react';
 import {Navbar} from './components/header/navbar/Navbar.jsx';
+import {BannerHero} from './components/header/bannerHero/BannerHero.jsx';
 
 const styles = {
   margin: 10
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar />
+        <BannerHero />
       </header>
 
 
