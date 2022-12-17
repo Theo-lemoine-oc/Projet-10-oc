@@ -1,8 +1,17 @@
 import React from 'react';
+import {BannerAbout} from '../components/about/AboutBanner.jsx';
 
 export const About = () => {
     return (
-        <main></main>
+        <div className="App">
+      <header className="App-header">
+        <BannerAbout />
+      </header>
+
+      <main>
+        
+      </main>
+    </div>
     )
 }
 
