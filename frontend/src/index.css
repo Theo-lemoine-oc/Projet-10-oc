@@ -24,3 +24,46 @@ main {
     padding: 0 1rem;
   }
 }
+
+
+/** Error 404 page **/
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.error-page h1 {
+  color: var(--main-color);
+  font-size: 288px;
+  text-align: center;
+}
+
+.error-page h2 {
+  color: var(--main-color);
+  font-size: 36px;
+  text-align: center;
+}
+
+.error-page .return-home {
+  color: var(--main-color);
+  font-size: 18px;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+@media(max-width: 620px) {
+  .error-page h1 {
+    font-size: 96px;
+  }
+
+  .error-page h2 {
+    font-size: 18px;
+  }
+
+  .error-page .return-home {
+    font-size: 14px;
+  }
+}
