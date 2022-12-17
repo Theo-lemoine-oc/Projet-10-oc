@@ -1,4 +1,4 @@
-.navbar {
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -6,14 +6,14 @@
 }
 
 
-.navbar a {
+nav a {
     text-decoration: none;
     color: var(--main-color);
     font-weight: 500;
     font-size: 24px;
 }
 
-.navbar a:first-child {
+nav a:first-child {
     margin-right: 2rem;
 }
 
@@ -28,7 +28,7 @@
         height: 47px;
     }
 
-    .navbar a {
+    nav a {
         font-size: 14px;
         text-transform: uppercase;
     }

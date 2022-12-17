@@ -5,9 +5,9 @@ import logoWhite from '../../assets/img/logo-kasa-white.svg';
 
 export const Footer = () => {
     return (
-        <div className='footer'>
+        <footer>
             <img src={logoWhite} alt="Logo blanc de Kasa" />
             <span>© 2020 Kasa. All rights reserved</span>
-        </div>
+        </footer>
     )
 }
