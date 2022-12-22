@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 import logo from '../../../assets/img/logo-kasa.svg';
 import './navbar.css';
 
@@ -6,6 +7,8 @@ import './navbar.css';
 
 export const Logo = () => {
     return (
-        <img src={logo} className="App-logo" alt="logo" />
+        <NavLink to="/">
+            <img src={logo} className="App-logo" alt="logo" />
+        </NavLink>
     )
 }
