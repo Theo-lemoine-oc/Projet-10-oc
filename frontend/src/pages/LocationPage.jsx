@@ -34,7 +34,13 @@ export const LocationPage = () => {
             </div>
             <div className="locationPage-description">
                 <Faq title="Description" content={description} />
-                <Faq title="Équipement" content={equipments} />
+                <Faq title="Équipement" content=
+                    {
+                        <ul>
+                            {equipments.map((equipment) => <li key={equipment}>{equipment}</li>)}
+                        </ul>
+                    }
+                />
             </div>
         </main>
     )
