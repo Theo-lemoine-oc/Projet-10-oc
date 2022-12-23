@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from "react-router-dom";
 import locations from '../__mocks__/locations.json';
+import '../components/locationPage/locationPage.css';
 
 import { Slider } from '../components/locationPage/Slider.jsx';
 import Tags from '../components/locationPage/Tags.jsx';

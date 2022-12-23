@@ -1,9 +1,10 @@
 import React from "react";
+import './locationPage.css';
 
 const Tags = ({ getTag }) => {
   return (
     <div className="tag">
-      <span className="tag-text">{getTag}</span>
+      <span>{getTag}</span>
     </div>
   );
 };

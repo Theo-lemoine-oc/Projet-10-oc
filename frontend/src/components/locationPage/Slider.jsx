@@ -26,23 +26,23 @@ export const Slider = ({slides}) => {
                     key={index}
                     className={
                     index === current
-                        ? "slide slider__active-picture"
-                        : "slide slider__inactive-picture"
+                        ? "slide slider-active_picture"
+                        : "slide slider-inactive_picture"
                     }
                 >
                     {index === current && (
-                    <img src={picture} alt="" className="slider__picture" />
+                    <img src={picture} alt="" className="slider-picture" />
                     )}
                 </div>
                 );
             })}
             {length > 1 ? (
                 <>
-                    <div className="slider__previous" onClick={prevSlide}>
-                        <img src={arrowLeft} alt="" className="slider__previous-icon" />
+                    <div className="slider-previous" onClick={prevSlide}>
+                        <img src={arrowLeft} alt="" className="slider-previous_icon" />
                     </div>
-                    <div className="slider__next" onClick={nextSlide}>
-                        <img src={arrowRight} alt="" className="slider__next-icon" />
+                    <div className="slider-next" onClick={nextSlide}>
+                        <img src={arrowRight} alt="" className="slider-next_icon" />
                     </div>
                 </>
             ) : null}

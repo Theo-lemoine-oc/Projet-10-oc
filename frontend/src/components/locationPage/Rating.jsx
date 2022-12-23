@@ -1,4 +1,5 @@
 import React from "react";
+import './locationPage.css';
 
 import redStar from "../../assets/img/red-star.svg";
 import greyStar from "../../assets/img/grey-star.svg";

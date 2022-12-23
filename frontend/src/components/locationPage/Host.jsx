@@ -1,4 +1,5 @@
 import React from "react";
+import './locationPage.css';
 
 const Host = ({ host }) => {
   const isHostSplited = host.name.split(" ");
