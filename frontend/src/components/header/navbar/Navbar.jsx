@@ -6,9 +6,9 @@ import './navbar.css';
 
 export const Navbar = () => {
     return (
-        <nav className='navbar'>
+        <div className='navbar'>
             <Logo />
             <Tabs />
-        </nav>
+        </div>
     )
 }
