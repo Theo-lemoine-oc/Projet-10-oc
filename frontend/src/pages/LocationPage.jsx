@@ -12,6 +12,10 @@ import { Faq } from '../components/utils/Faq.jsx';
 export const LocationPage = () => {
     const { locationId } = useParams();
     const locationContent = locations.find((locationContent) => locationContent.id === locationId);
+    // Rediriger vers la page 404 en cas d'ID incorrect
+    if(!locationContent) {
+        window.location.replace('/error');
+    }
     const {title, location, rating, host, equipments, description, pictures } = locationContent;
 
     return (
